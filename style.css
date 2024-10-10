@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo h1 {
+    margin-left: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  .element {
+    border: #333 4px solid;
+    background-color: #ececec;
+    padding: 30px;
+    width: auto;
+    border-radius: 15px;
+    /* margin: 4px 2px;
+    opacity: 1;
+    transition: 0.5s; */
+  }
+  /* .element:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px white;
+  } */
+  #about p {
+    text-align: center;
+    text-indent: 10px;
+    font-size: 1.15em;
+    white-space: pre-line;
+  }
+  /* Hero Section */
+  #hero {
+    border-radius: 15px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Skills Section */
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skill-item {
+    border-radius: 10px;
+    background: #ddd;
+    padding: 10px;
+    margin: 10px;
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  /* Projects Section */
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project-item {
+    border-radius: 7.5px;
+    background: #ddd;
+    padding: 10px;
+    margin: 10px;
+    flex-basis: 45%;
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
